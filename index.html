@@ -10,6 +10,22 @@
     We are using node <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+
+    <section>
+      <h1>Connect to Studio</h1>
+
+      <form>
+        <label for="custom-studio-host">Host</label>
+        <input type="text" id="custom-studio-host"/>
+
+        <label for="custom-studio-host">Port</label>
+        <input type="number" min="0" max="65535" id="custom-studio-port"/>
+
+        <button type="button" id="custom-studio-connect">Connect</button>
+
+        <span id="custom-studio-status">Test</span>
+      </form>
+    </section>
   </body>
 
   <script>
