@@ -51,3 +51,12 @@ app.on('activate', function () {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+
+const ipcMain = electron.ipcMain;
+ipcMain.on('studio-connect',
+  (event, arg) => {
+    // TODO: do something useful here
+    console.log("Requested custom studio connect: ", arg)
+    event.sender.send('studio-change', arg)
+  }
+);

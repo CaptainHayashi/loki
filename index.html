@@ -11,20 +11,23 @@
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
 
-    <section>
+    <section id="studio-connect">
       <h1>Connect to Studio</h1>
 
-      <form>
-        <label for="custom-studio-host">Host</label>
-        <input type="text" id="custom-studio-host"/>
+      <section id="studio-custom">
+        <h1>Custom Studio</h1>
+        <form>
+          <label for="studio-custom-host">Host</label>
+          <input type="text" id="studio-custom-host"/>
 
-        <label for="custom-studio-host">Port</label>
-        <input type="number" min="0" max="65535" id="custom-studio-port"/>
+          <label for="studio-custom-host">Port</label>
+          <input type="number" min="0" max="65535" id="studio-custom-port"/>
 
-        <button type="button" id="custom-studio-connect">Connect</button>
+          <button type="button" id="studio-custom-connect">Connect</button>
 
-        <span id="custom-studio-status">Test</span>
-      </form>
+          <span id="studio-custom-status">Test</span>
+        </form>
+      </section>
     </section>
   </body>
 
