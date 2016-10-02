@@ -1,0 +1,21 @@
+{
+  "name": "loki",
+  "version": "0.1.0",
+  "homepage": "https://github.com/CaptainHayashi/loki",
+  "authors": [
+    "Matt Windsor <mattwindsor@btinternet.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "raleway": "^1.0.1"
+  }
+}

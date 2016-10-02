@@ -1,0 +1,6 @@
+@import "./bower_components/raleway/raleway.css";
+
+html {
+  background-color: #eeeeee;
+  font-family: "Raleway", sans-serif;
+}
